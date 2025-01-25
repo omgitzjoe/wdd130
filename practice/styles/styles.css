@@ -5,6 +5,10 @@ body {
     background-color: steelblue;
     padding: 10px;
   }
+  .main-para {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
   a {
     color: white;
     margin: 40px;
@@ -23,3 +27,7 @@ body {
     background-color: steelblue;
     color: white;
   }
+  #active {
+    background-color: white;
+    color: steelblue;
+}
