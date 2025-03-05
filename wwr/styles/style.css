@@ -235,7 +235,7 @@ nav
 }
 .idaho-text
 {
-    color: royalblue;
+    color: darkblue;
     font-size: 18px;
     grid-row:1/3;
     grid-column: 1/6;
@@ -246,7 +246,7 @@ align-self: auto;
 
 .utah-text
 {
-color: royalblue;
+color: darkblue;
 font-size: 25px;
 grid-row: 3/5;
 grid-column:1/6;
@@ -256,7 +256,7 @@ align-self: auto;
 .arizona-txt
 {
     font-size: 20px;
-color: royalblue;
+color: darkblue;
 grid-row: 6/8;
 grid-column: 4/10;
 justify-self: auto;
