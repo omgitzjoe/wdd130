@@ -215,14 +215,15 @@ nav
     grid-column: 6/10;
     justify-self: auto;
     align-self: auto;
+    padding:50px;
 }
 .utah-img
 {
     grid-row:3/5;
-    grid-column: 5/10;
-    width:100%;
+    grid-column: 6/10;
     justify-self: auto;
     align-self: auto;
+    padding:50px;
 }
 .arizona-img
 {
@@ -230,6 +231,7 @@ nav
     grid-column: 1/4;
     justify-self: auto;
     align-self: auto;
+    padding:50px;
 }
 .idaho-text
 {
@@ -247,7 +249,7 @@ align-self: auto;
 color: royalblue;
 font-size: 25px;
 grid-row: 3/5;
-grid-column:1/5;
+grid-column:1/6;
 justify-self: auto;
 align-self: auto;
 }
