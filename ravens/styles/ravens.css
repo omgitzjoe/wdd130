@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+
+:root {
+  --primary-color: purple  ;
+  --secondary-color: gold ;
+  --accent1-color: black;
+  --accent2-color: red;
+
+  --heading-font:trebuchet;
+  --paragraph-font: arial, trebuchet, sans-serif;
+
+  --headline-color-on-white: Purple;  /* headlines on a white background */ 
+  --headline-color-on-color:gold; /* headlines on a colored background */ 
+  --paragraph-color-on-white: purple; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: gold; /* paragraph text on a colored background */ 
+  --paragraph-background-color: purple  ;
+  --nav-link-color: red;
+  --nav-background-color: black;
+  --nav-hover-link-color: gold;
+  --nav-hover-background-color: purple;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4em;
+  font-size: 18px;
+  text-align: center;
+}
+img {
+  display: inline;
+  margin: 0 auto;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--headline-color-on-white);
+}
+h2 {
+  text-align: center;
+}
+hr {
+  height: 3px;
+  margin: 35px 0;
+  background: var(--accent1-color);
+}
+header{
+  background-color: purple;
+  padding: 25px 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  opacity: 75%;
+}
+header > h1, header > h2 {
+  color: var(--headline-color-on-color);
+}
+p {
+  font-family: var(--paragraph-font);
+  color: var(--paragraph-color-on-white);
+  padding: 1em;
+}
+nav {
+  background-color: var(--nav-background-color);
+  line-height: 3em;
+  text-align: center;
+  font-size: 1.2em;
+  display: flex;
+}
+nav a {
+  padding: 1em;
+  min-width: 150px;
+  align-self: auto;
+}
+nav a:link, nav a:visited {
+  color: var(--nav-link-color);
+}
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
+footer{
+  background-color: purple;
+  padding: 25px 20px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#hero
+{
+  display:grid;
+  max-width:1200px;
+  grid-template-columns: 1fr 3fr 1fr;
+  margin-top:-100px;
+}
+#hero-msg{
+  grid-column: 1/3;
+  margin-top: -350px;
+}
+#hero h1{
+  text-align: center;
+  color: gold;
+  font-size: 3em;
+}
+#baltimore-city
+{
+  max-width: 1200px;
+  max-height: 1fr;
+}
+.news-story
+{
+  border:5px red solid;
+  margin:5px;
+  background-color: gold;
+}
+#power-rankings a
+{
+  font-size: 2em;
+  padding: 100px;
+}
