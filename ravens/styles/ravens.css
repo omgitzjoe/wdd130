@@ -21,10 +21,10 @@
 }
 
 body {
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
   padding: 4em;
-  font-size: 18px;
+  font-size: 1.2em;
   text-align: center;
 }
 img {
@@ -68,7 +68,7 @@ nav {
 }
 nav a {
   padding: 1em;
-  min-width: 150px;
+  min-width: 1fr;
   align-self: auto;
   align-content: center;
 }
@@ -78,6 +78,14 @@ nav a:link, nav a:visited {
 nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
+}
+#content
+{
+max-width: 1600px;
+margin:0;
+align-items: 0 auto;
+align-content: 0 auto;
+align-self: 0 auto;
 }
 footer{
   background-color: purple;
@@ -107,11 +115,11 @@ footer{
 }
 #baltimore-city
 {
-  max-width: 1200px;
+  max-width: 1600px;
 }
 #former-teams
 {
-  max-width:1200px;
+  max-width:1600px;
 }
 #hero-msg2
 {
