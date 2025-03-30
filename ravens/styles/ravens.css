@@ -74,7 +74,7 @@ nav {
 }
 nav a {
   padding: 1em;
-  min-width: 1fr;
+  min-width: 50px;
   align-self: auto;
   align-content: center;
 }
