@@ -103,7 +103,7 @@ footer{
 }
 #hero-msg{
   grid-column: 1/3;
-  margin-top: -450px;
+  margin-top: -650px;
   font-size: 2em;
 }
 #hero h1{
@@ -111,13 +111,10 @@ footer{
   color: gold;
   font-size: 3em;
 }
-#baltimore-city
+#baltimore-city, #former-teams, #ravens-current
 {
   max-width: 1600px;
-}
-#former-teams
-{
-  max-width:1600px;
+  min-width: 1600px;
 }
 #hero-msg2
 {
@@ -125,7 +122,13 @@ footer{
   grid-column: 1/3;
   margin-top: -650px;
 }
-#hero-msg2 h1
+#hero-msg3
+{
+  font-size: 2em;
+  grid-column: 1/3;
+  margin-top: -950px;
+}
+#hero-msg2 h1, #hero-msg3 h1, #hero-msg h1
 {
   background-color: purple;
   opacity: 80%;
@@ -141,6 +144,7 @@ footer{
   font-size: 2em;
   padding: 100px;
 }
+
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
   display:inline-block;
@@ -184,4 +188,7 @@ footer{
   background-color: gold;
   color: white;
   transform: rotateY(180deg);
+}
+#schedule img{
+  min-width: 600px
 }
